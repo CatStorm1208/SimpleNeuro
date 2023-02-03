@@ -1,5 +1,5 @@
 public class NeuroLink
 {
-    public byte weight;
+    public short weight;
     public Neuron out;
 }

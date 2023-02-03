@@ -1,5 +1,5 @@
 public class Neuron
 {
-    public byte value;
-    public byte bias;
+    public short value;
+    public short bias;
 }
