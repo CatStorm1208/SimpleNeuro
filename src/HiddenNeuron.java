@@ -21,7 +21,6 @@ public class HiddenNeuron extends Neuron
             value = -128;
         }
 
-
         if (value >= bias)
         {
             for (NeuroLink link : links)
