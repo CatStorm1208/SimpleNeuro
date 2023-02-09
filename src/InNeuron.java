@@ -1,6 +1,6 @@
 public class InNeuron extends Neuron
 {
-    public static NeuroLink[] links = new NeuroLink[4];
+    public static NeuroLink[] links = new NeuroLink[5];
 
     public InNeuron()
     {

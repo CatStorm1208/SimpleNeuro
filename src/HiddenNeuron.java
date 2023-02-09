@@ -1,6 +1,6 @@
 public class HiddenNeuron extends Neuron
 {
-    public static NeuroLink[] links = new NeuroLink[2];
+    public static NeuroLink[] links = new NeuroLink[3];
 
     public HiddenNeuron()
     {

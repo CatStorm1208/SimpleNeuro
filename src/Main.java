@@ -1,9 +1,7 @@
 import java.util.Random;
 
-/** section for TODOs
+/** TODOs
  * TODO Make the init class pull from files
- * TODO Make Sure, that output doesn't always escalate NOTE: this may not be a bug but the regular behavior
- * TODO Make sure, that outputs on
 */
 
 public class Main
@@ -14,11 +12,10 @@ public class Main
 
     public static void main(String[] args)
     {
-        init();
         run();
     }
 
-    public static void init()
+    public static void init_old()
     {
         for (int n = 0; n < Layer3.length; n++)
         {
@@ -40,7 +37,7 @@ public class Main
         for (int n = 0; n < Layer1.length; n++)
         {
             Layer1[n] = new InNeuron();
-            Layer1[n].bias = (short) ((short) new Random().nextInt(128-(-127)) - 128);
+            Layer1[n].bias = 100; //(short) ((short) new Random().nextInt(128-(-127)) - 128);
             Layer1[n].value = (short) ((short) new Random().nextInt(128-(-127)) - 128);
             for (int m = 0; m < Layer1[n].links.length; m++)
             {
