@@ -1,7 +1,9 @@
 import java.util.Random;
 
 /** TODOs
- * TODO Make the init class pull from files
+ * TODO Make the init function pull from files
+ * TODO Finish initiation python script
+ * TODO Training class
 */
 
 public class Main
