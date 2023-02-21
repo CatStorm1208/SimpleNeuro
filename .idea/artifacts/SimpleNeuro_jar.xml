@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SimpleNeuro:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleNeuro_jar</output-path>
+    <root id="archive" name="SimpleNeuro.jar">
+      <element id="module-output" name="SimpleNeuro" />
+    </root>
+  </artifact>
+</component>
