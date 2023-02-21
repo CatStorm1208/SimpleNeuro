@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /* TODOs
  * TODO Training class
+ * TODO Quality assurance
 */
 
 public class Main
